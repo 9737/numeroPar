@@ -23,11 +23,11 @@ public class NumeroPar {
         System.out.print("Introduce un número: ");
         int n = t.nextInt();
         System.out.println();
-        System.out.print("El número es: "+n);
+        System.out.print("Has introducido el número: "+n);
         if (n%2==0) {
-                System.out.println(" y es par.");
+                System.out.println(" y este número es par.");
         } else {
-                System.out.println(" y es impar.");
+                System.out.println(" y este número es impar.");
         }
     }
 }
